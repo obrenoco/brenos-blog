@@ -11,8 +11,8 @@ const Post = ({ frontmatter, body }) => {
     <Layout pageTitle={frontmatter.title}>
       <div className="w-full">
         <article className="max-w-none">
-          <h1 className="text-2xl font-semibold mb-4">{frontmatter.title}</h1>
-          <p className="italic mb-4">{frontmatter.date}</p>
+          <h1 className="text-2xl font-semibold">{frontmatter.title}</h1>
+          <p className="italic mb-8">{frontmatter.date}</p>
         </article>
       </div>
       <section className="prose">

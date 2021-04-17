@@ -1,6 +1,6 @@
 ---
-title: "First Post!"
-description: "New Year's resolution achieved, I started my very own blog!"
-date: 1 January 2020
+title: "Meu Primeiro Post"
+description: "Ah, eu to feliz demais !"
+date: 17 Abril 2020
 ---
-I wish I'd done this ages ago.
+Já deveria ter feito isso à muito tempo...
