@@ -1,11 +1,14 @@
 import { posts } from "../posts";
 import Layout from "../components/Layout";
 import Link from "next/link";
+
 const Index = ({ posts }) => {
   return (
     <Layout pageTitle="My Blog">
-      <h1 className="text-2xl font-semibold">Blog Posts</h1>
-      <PostsList posts={posts} />
+      <section>
+        <h1 className="text-2xl font-semibold">Blog Posts</h1>
+        <PostsList posts={posts} />
+      </section>
     </Layout>
   );
 };
@@ -13,7 +16,7 @@ const PostsList = ({ posts }) => {
   if (!posts || !posts.length) return <p>No posts found</p>;
   return (
     <div className="w-full">
-      <ul className="mt-4">
+      <ul className="mt-4 list-none	">
         {posts.map((post) => {
           const { frontmatter, slug } = post;
           const { description, date, title } = frontmatter;

@@ -1,4 +1,3 @@
-## <!-- ./posts/first_post.md -->
 ---
 title: "First Post!"
 description: "New Year's resolution achieved, I started my very own blog!"

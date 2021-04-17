@@ -1,4 +1,3 @@
-## <!-- ./posts/second_post.md -->
 ---
 title: "Second Post"
 description: "And I even followed through with a second post!"
