@@ -23,7 +23,7 @@ const PostsList = ({ posts }) => {
           return (
             <li
               key={slug}
-              className="px-8 py-2 m-0 mt-4 border-b border-card-border hover:bg-gray-100"
+              className="px-8 py-4 m-0 border-b border-card-border hover:bg-gray-900"
             >
               <Link href={`/blog/${slug}`}>
                 <a>

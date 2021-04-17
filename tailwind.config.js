@@ -1,9 +1,10 @@
 module.exports = {
+  important: "html",
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
   purge: ["./components/**/*.+(js|jsx)", "./pages/**/*.+(js|jsx)"],
-  theme: {},
+  darkMode: "media",
   plugins: [require("@tailwindcss/typography")],
 };

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+
+  h1, h2, h3, p, div {
+    @apply text-white
+  }
+}
+
+.prose h2, h3 {
+  color: white !important;
+}
